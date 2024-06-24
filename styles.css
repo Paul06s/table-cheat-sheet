@@ -1,35 +1,98 @@
-*{
-    box-sizing: border-box;
-    /* border: solid red 1px; */
-}
-
 body{
-    margin: 0 auto;
+    font-family: 'Playfair Display', sans-serif;
+    margin: 0 10%;
+}
+.main-title{
+    font-family: 'Chewy', sans-serif;
+    font-size: 30px;
+}
+
+h2, h3{
+    font-family: lato;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+p{
+    font-family: 'Playfair-display', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.section{
+    border: solid 2px rgba(255, 175, 204, 0.8);
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.color-container{
+    width: 100%;
+}
+
+.color-panel{
+    display: inline-block;
+    width: 32%;
     text-align: center;
-    background-color: lightpink ;
-    position: relative;
-    top: 10vh;
-        
+    margin: 20px 2px;
+    min-height: 100px;
+    box-shadow: rgba(205, 180, 219, 0.6) 4px 4px;
+    border-radius: 5px;
 }
 
-h1, h2{
-    font-family:Bungee, Arial, sans-serif;
-}
-table{
-    margin: 0 auto;
-    border-collapse: collapse;
-    font-family: Arial, Helvetica, sans-serif;
-    
+.thistle{
+    background-color: rgba(205, 180, 219, 1);
+    color: #fff;
 }
 
-table thead{
-    background-color:deeppink ;
-    font-weight: bold;
+.fairy-tale{
+    background-color: rgba(255, 200, 221, 1);
+    color:#fff;
 }
 
-table, th, tr, td{
-    border: solid 0.25em hotpink;
-    padding: 0.50em;
+.carnation-pink{
+    background-color:rgba(255, 175, 204, 1);
+    color:#fff;
 }
 
+.uranian-blue{
+    background-color:rgba(189, 224, 254, 1);
+    color:#fff;
+}
 
+.light-sky-blue{
+    background-color:rgba(162, 210, 255, 1);
+    color:#fff;
+}
+
+.font-panel{
+    width: 45%;
+    display: inline-block;
+}
+
+.chewy{
+  font-family: 'Chewy', sans-serif;
+}
+
+.lato{
+  font-family: 'lato', sans-serif;
+}
+
+.playfair-display{
+  font-family: 'playfaire-display', serif;
+}
+
+.regular{
+    font-weight: 400;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.italic{
+  font-style:italic ;
+}
+
+.text-panel h1{
+  font-family: chewy, sans-serif;
+}
