@@ -3,89 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cheat Sheet Table</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Charte Graphique</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Feuille de triche tableaux HTML</h1>
-   
-        <h2>Balises de tableaux</h2>
+        <h1 class="main-title">Ma charte graphique</h1>
     </header>
-    <main>
-        <table>
-            <thead>
-                <th>Balises</th>
-                <th>Nom</th>
-                <th>Nom FR</th>
-                <th>Description</th>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>&lt;table&gt;</td>
-                    <td>Table</td>
-                    <td></td>
-                    <td>L'élément contenant tous les éléments du tableau HTML</td>                   
-                </tr>
-                <tr>
-                    <td>&lt;thead&gt;</td>
-                    <td>Table head</td>
-                    <td></td>
-                    <td></td>           
-                </tr>
-                <tr>
-                    <td>&lt;tbody&gt;</td>
-                    <td>Table body</td>
-                    <td></td> 
-                    <td></td>                  
-                </tr>
-                <tr>
-                    <td>&lt;tr&gt;</td>
-                    <td>Table Row</td>
-                    <td></td>
-                    <td></td>                   
-                </tr>
-                <tr>
-                    <td>&lt;td&gt;</td>
-                    <td>Table Data</td>
-                    <td></td>
-                    <td></td>                  
-                </tr>
-                <tr>
-                    <td>&lt;tfoot&gt;</td>
-                    <td>Table Foot</td>
-                    <td></td>
-                    <td></td>                   
-                </tr>
-            </tbody>
-        </table>
-            <h2>Attributs de tableaux</h2>
-        <table>
-            <thead>
-                <th>Attribut</th>
-                <th>Nom</th>
-                <th>Nom FR</th>
-                <th>Description</th>
-            </thead>
-            <tbody>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-            </tbody>
-        </table>
-    </main>
+    <section class="section">
+        <div class="color-container">
+            <h2>Couleurs</h2>
+            <div class="color-panel thistle">
+                <p>Thistle</p>
+                <p>#CDB4DB</p>
+            </div>
+            <div class="color-panel fairy-tale">
+                <p>Fairy Tale</p>
+                <p>#FFC8DD</p>
+            </div>
+            <div class="color-panel carnation-pink">
+                <p>Carnation Pink</p>
+                <p>#FFAFCC</p>
+            </div>
+            <div class="color-panel uranian-blue">
+                <p>Uranian Blue</p>
+                <p>#BDE0FE</p>
+            </div>
+            <div class="color-panel light-sky-blue">
+                <p>Light Sky Blue</p>
+                <p>#A2D2FF</p>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="font-container">
+            <h2>Polices</h2>
+            <div class="font-panel">
+                <h3 class="font-panel chewy">Chewy</h3>
+                <p class="regular chewy">"Le lion ne s'associe pas avec le carfar!"</p>
+                <p class="bold chewy">"Le lion ne s'associe pas avec le carfar!"</p>
+                <p class="italic chewy">"Le lion ne s'associe pas avec le carfar!"</p>
+            </div>
+            <div class="font-panel">
+                <h3 class="font-panel lato">Lato</h3>
+                <p class="regular lato">"Le lion ne s'associe pas avec le carfar!"</p>
+                <p class="bold lato">"Le lion ne s'associe pas avec le carfar!"</p>
+                <p class="italic lato">"Le lion ne s'associe pas avec le carfar!"</p>
+            </div>
+            <div class="font-panel">
+                <h3 class="font-panel playfair-display">Playfair Display</h3>
+                <p class="regular playfair-display">"Le lion ne s'associe pas avec le carfar!"</p>
+                <p class="bold playfair-display">"Le lion ne s'associe pas avec le carfar!"</p>
+                <p class="italic playfair-display">"Le lion ne s'associe pas avec le carfar!"</p>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="text-container">
+            <h2>Styles des textes</h2>
+            <div class="text-panel">
+                <h1>H1: EN TETE</h1>
+                <ul>
+                    <li>Font-weight:700 (Bold)</li>
+                    <li>Font-size: 26px</li>
+                    <li>Font-family: Chewy</li>
+                </ul>
+            </div>
+            <div class="text-panel">
+                <h2>H2: Sous-titres</h2>
+                <ul>
+                    <li>Font-weight:500</li>
+                    <li>Font-size: 18px</li>
+                    <li>Font-family: lato</li>
+                </ul>
+            </div>
+            <div class="text-panel">
+                <h3>P: Paragraphes</h3>
+                <ul>
+                    <li>Font-weight:400</li>
+                    <li>Font-size: 14px</li>
+                    <li>Font-family: Playfair-display</li>
+                </ul>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
